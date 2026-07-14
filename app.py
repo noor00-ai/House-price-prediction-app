@@ -15,10 +15,9 @@ app = FastAPI(
 # ==========================================================
 # Load Saved Model and Scalers
 # ==========================================================
-model = joblib.load("house_price_model.pkl")
-scaler = joblib.load("scaler.pkl")
-target_scaler = joblib.load("target_scaler.pkl")
-
+model = joblib.load("models/house_price_model.pkl")
+scaler = joblib.load("models/scaler.pkl")
+target_scaler = joblib.load("models/target_scaler.pkl")
 # ==========================================================
 # Input Data Schema
 # ==========================================================
