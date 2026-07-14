@@ -1,6 +1,6 @@
-pandas
+fastapi
+uvicorn
+joblib
 numpy
-scikit-learn
-matplotlib
-seaborn
-jupyter
+pandas
+scikit-learn==1.8.0
